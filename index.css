@@ -1,0 +1,144 @@
+body{
+    margin: unset;
+    background-color: black;
+    color: white;
+}
+ 
+.caixa1{
+    width: 10vw;
+    height: 100vw;
+    float: left;
+}
+
+.caixa2{
+    width: 10vw;
+    height: 100vw;
+    float: right;
+}
+
+.titulo{
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 8vw;
+
+}
+
+.fundo {
+    background-color: white;
+    border-radius: 1vw;
+    position: absolute;
+    left: 15vw;
+    width: 70vw;
+    height: 90vw;
+}
+
+.produto {
+    position: absolute;
+    width: 20vw;
+    height: 40vw;
+    border: 0.2vw solid black;
+    border-radius: 1.5vw;
+    z-index: 1;
+    box-shadow: 1vw 1vw 1vw rgb(90, 86, 86);
+}
+
+.a{
+    top: 2vw;
+    left: 1vw;
+}
+
+.b{ 
+    top: 2vw;
+    left: 24vw;
+}
+
+.c{
+    top: 2vw;
+    left: 47vw;
+}
+
+.d{
+    top: 45vw;
+    left: 1vw;
+}
+
+.e{
+    top: 45vw;
+    left: 24vw;
+}
+
+.f {
+    top: 45vw;
+    left: 47vw;
+}
+
+.pe{
+    background-color: white;
+    width: 100%;
+    height: 20vw;
+    position: absolute;
+    top : 120vw;
+}
+
+.gbm{
+    border-radius: 1vw;
+    width: 100%;
+    height: 60%;
+
+}
+
+main {
+color: black;
+}
+
+.descricao{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1vw;
+}
+
+.nome{
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.preco{
+    position: relative;
+    left: 2.5vw;
+    font-size: 2vw;
+}
+
+footer{
+    color: black;
+}
+
+a{
+    color: black;
+    text-decoration:none ;
+
+    transition:100ms;
+}
+
+.produto:hover{
+    border-color: blue;
+    width: 21vw;
+    height: 41vw;
+}
+
+.contato{
+    position: relative;
+    left: 10vw;
+    width: max-content;
+}
+
+.insta{
+    height: 10vw;
+    border-radius: 10vw;
+}
+
+.outros{
+    width: max-content;
+    position: absolute;
+    left: 50vw;
+    top: 0vw
+}
