@@ -97,47 +97,6 @@ font-family: Florilane;
             text-decoration: none;
         }
 
-        button{
-
-            position: relative;
-            top: 10vw;
-            
-  background-color: #FFFFFF;
-  border: 0.2vw solid #222222;
-  border-radius: 0.5vw;
-  box-sizing: border-box;
-  color: #222222;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Helvetica Neue",sans-serif;
-  font-size: 1vw;
-  font-weight: 37.5vw;
-  line-height: 1.25vw;
-  margin: 0;
-  outline: none;
-  padding:  0.8125vw 1.4375vw;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  touch-action: manipulation;
- 
-  user-select: none;
-  -webkit-user-select: none;
-  width: auto;
-}
-
-button:focus-visible {
-  
-    border: 0.5vw double #222222;
-}
-
-button:active {
-  background-color: #F7F7F7;
-  border-color: #000000;
-  transform: scale(.96);
-}
-
-
 
 
 .contato{
@@ -161,5 +120,29 @@ button:active {
 a{
     text-decoration: none;
     color: black;
+}
 
+
+
+.button-2 {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
